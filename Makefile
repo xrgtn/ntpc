@@ -1,5 +1,7 @@
 LDLIBS=-lm -lcap
 
+ntpc: ntpc.c
+
 # NOTES:
 #
 # ntpc binary should be granted "CAP_SYS_TIME,p" capability after
