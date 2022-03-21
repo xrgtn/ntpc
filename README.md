@@ -1,11 +1,11 @@
 # ntpc
 
-Very simple NTP client with CAP_SYS_TIME support; it's like helloworld.c that
-demonstrates usage of NTP and CAP_SYS_TIME.
+Very simple NTP client with CAP\_SYS\_TIME support; it's like helloworld.c that
+demonstrates usage of NTP and CAP\_SYS\_TIME.
 
-If ntpc binary is granted CAP_SYS_TIME (by `setcap cap_sys_time+p /path/to/ntpc`),
-it'd be able to run under regular user accounts and perform its duties just fine,
-without relying on root or suid-root bit.
+If ntpc binary is granted CAP\_SYS\_TIME (by `setcap cap_sys_time+p
+/path/to/ntpc`), it'd be able to run under regular user accounts and perform
+its duties just fine, without relying on root or suid-root bit.
 
 ## ntpc and grsec
 
